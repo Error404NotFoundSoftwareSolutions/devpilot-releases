@@ -5,7 +5,7 @@ description. It plans a path, finds the videos, opens hands-on labs in VS Code a
 computer. The tutor gives hints, never finished answers. Finish a lab and claim a credential that says plainly how it
 was checked.
 
-This repository holds the downloadable app only. The source code is private.
+Website: **https://devpilot.web.app**. This repository holds the downloadable app only; the source code is private.
 
 ## Download
 
