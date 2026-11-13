@@ -10,7 +10,14 @@ Website: **https://devpilot.web.app**. This repository holds the downloadable ap
 ## Download
 
 **[DevPilot for Linux (x64), preview](https://github.com/Error404NotFoundSoftwareSolutions/devpilot-releases/releases)**,
-see the release page for the file and its SHA-256 checksum. Windows and macOS are coming later.
+see the release page for the files and their SHA-256 checksums. Windows is below; macOS is coming later.
+
+## Install on Windows
+
+Download `devpilot-windows-x64.zip`, unzip it and double-click `devpilot\devpilot.exe`. To add DevPilot to the Start menu, run
+`powershell -ExecutionPolicy Bypass -File install.ps1` in that folder. Check the download with
+`Get-FileHash devpilot-windows-x64.zip` against the `.sha256` file. The preview is not signed, so SmartScreen may warn:
+choose **More info**, then **Run anyway**. You need Windows 10 or 11 (64-bit), VS Code, Python 3.10+ and Git.
 
 ## Install on Linux
 
@@ -27,7 +34,7 @@ Check the download first if you like:
 sha256sum -c devpilot-linux-x64.tar.gz.sha256
 ```
 
-**You need:** a 64-bit Linux desktop (GTK 3), [VS Code](https://code.visualstudio.com/) with the `code` command, Python
+**You need (Linux):** a 64-bit Linux desktop (GTK 3), [VS Code](https://code.visualstudio.com/) with the `code` command, Python
 3.10 or newer, Git, and an internet connection. Sign in with email or with Google.
 
 ## What to expect from the preview
